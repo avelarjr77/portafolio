@@ -45,6 +45,7 @@ export const Home = () => {
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
+    console.log(index);
   }
 
   return (
