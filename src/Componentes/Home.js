@@ -10,7 +10,6 @@ export const Home = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(100 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
   const toRotate = ["Soy Desarrollador Web."];
   const period = 2000;
 
