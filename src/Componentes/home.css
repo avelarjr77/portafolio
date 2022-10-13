@@ -1,0 +1,9 @@
+.nombre{
+    font-size: 100px;
+    font-style: oblique;
+}
+.apellido{
+    color: rgb(177, 11, 183);
+    font-style: oblique ;
+    font-weight: bold;
+}

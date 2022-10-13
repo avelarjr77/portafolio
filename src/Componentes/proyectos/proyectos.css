@@ -1,0 +1,26 @@
+.my-modal .modal-content{
+    background: #080808;
+}
+.btn-close{
+    background: url("../../assets/img/x.svg") center/1em auto no-repeat;
+}
+.carousel-control-prev-icon{
+    background: url("../../assets/img/arrow1.svg") center/1em auto no-repeat;
+}
+.carousel-control-next-icon{
+    background: url("../../assets/img/arrow2.svg") center/1em auto no-repeat;
+}
+.carousel-control-next, .carousel-control-prev{
+    outline: 0;
+    transition: all .5s;
+    z-index: 1000;
+    border: 0;
+    background: rgba(5, 7, 12, 0.4);
+    min-width: 43px;
+    min-height: 43px;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}

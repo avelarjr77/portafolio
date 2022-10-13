@@ -1,0 +1,31 @@
+.container .servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.container.servicios > div{
+    background: radial-gradient(50rem,#8419b6, #1b68c1);
+    padding: 2.4rem 5rem;
+    border-radius: 1.5rem;
+    border: .5px solid transparent;
+    transition: var(--transition);
+}
+.container.servicios > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.web_contenido{
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.diseño_contenido{
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr;
+}
+.text-small{
+    font-size: 17px;
+}
+
