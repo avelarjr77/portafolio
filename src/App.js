@@ -15,6 +15,9 @@ import Button from 'react-bootstrap/Button';
 import ScrollToTop from "react-scroll-to-top";
 import { Skills } from "./Componentes/Skills";
 
+import './firebase';
+
+
 function App() {
   return (
     <div className="App">
