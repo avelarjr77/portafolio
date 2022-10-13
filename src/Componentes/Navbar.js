@@ -14,7 +14,7 @@ function NavbarH() {
                     </Nav>
                     <Nav>
                         <Nav.Link href="#inicio">Home</Nav.Link>
-                        <Nav.Link href="#SobreMi">Sobre mí</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
                         <Nav.Link href="#servicios">Servicios</Nav.Link>
                         <Nav.Link href="#proyecto">Proyectos</Nav.Link>
                         <Nav.Link href="#contacto">Contacto</Nav.Link>

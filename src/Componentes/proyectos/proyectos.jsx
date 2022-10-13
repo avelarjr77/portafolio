@@ -12,16 +12,24 @@ import Correspondencia5 from "../../assets/img/imgProyectos/correspondencia/Capt
 import Correspondencia6 from "../../assets/img/imgProyectos/correspondencia/Captura de pantalla (470).png";
 import Correspondencia7 from "../../assets/img/imgProyectos/correspondencia/Captura de pantalla (460).png";
 import ControlEquipos from "../../assets/img/imgProyectos/controlEquipos/Captura de pantalla (483).png";
+import ControlEquipos1 from "../../assets/img/imgProyectos/controlEquipos/Captura de pantalla (472).png";
+import ControlEquipos2 from "../../assets/img/imgProyectos/controlEquipos/Captura de pantalla (473).png";
+import ControlEquipos3 from "../../assets/img/imgProyectos/controlEquipos/Captura de pantalla (474).png";
+import ControlEquipos4 from "../../assets/img/imgProyectos/controlEquipos/Captura de pantalla (475).png";
 import Restaurante from "../../assets/img/imgProyectos/restaurante/Captura de pantalla (480).png";
+import Restaurante1 from "../../assets/img/imgProyectos/restaurante/Captura de pantalla (476).png";
+import Restaurante2 from "../../assets/img/imgProyectos/restaurante/Captura de pantalla (477).png";
+import Restaurante3 from "../../assets/img/imgProyectos/restaurante/Captura de pantalla (481).png";
+import Restaurante4 from "../../assets/img/imgProyectos/restaurante/Captura de pantalla (482).png";
 
 
 export default function Proyectos(props) {
     const [lgShow1, modalCorrespondencia] = useState(false);
     const [lgShow2, modalEquipos] = useState(false);
-    const [lgShow3, setModalShow] = useState(false);
+    const [lgShow3, modalRestaurante] = useState(false);
 
     return (
-        <section id='proyectos'>
+        <section id='proyecto'>
             <h2>Proyectos</h2>
             <h4>Algunos de mis proyectos de Desarrollo Web</h4>
             <br></br>
@@ -71,7 +79,7 @@ export default function Proyectos(props) {
                                         <br></br>
                                     </h6>
                                 </Card.Text>
-                                <Button variant="outline-light" onClick={() => setModalShow(true)}>Ver info.</Button>
+                                <Button variant="outline-light" onClick={() => modalRestaurante(true)}>Ver info.</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -152,9 +160,6 @@ export default function Proyectos(props) {
                 className='my-modal'
             >
                 <Modal.Header closeButton>
-                    <Modal.Title id="contained-modal-title-vcenter">
-                        Modal heading
-                    </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Carousel>
@@ -164,36 +169,85 @@ export default function Proyectos(props) {
                                 src={ControlEquipos}
                                 alt="First slide"
                             />
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src={ControlEquipos}
+                                src={ControlEquipos1}
                                 alt="First slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src={ControlEquipos}
+                                src={ControlEquipos2}
                                 alt="First slide"
                             />
-
-                            <Carousel.Caption>
-                                <h3>Third slide label</h3>
-                                <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                </p>
-                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={ControlEquipos3}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={ControlEquipos4}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </Modal.Body>
+            </Modal>
+            <Modal
+                {...props}
+                size="lg"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+                show={lgShow3}
+                onHide={() => modalRestaurante(false)}
+                className='my-modal'
+            >
+                <Modal.Header closeButton>
+                </Modal.Header>
+                <Modal.Body>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Restaurante}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Restaurante1}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Restaurante2}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Restaurante3}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Restaurante4}
+                                alt="First slide"
+                            />
                         </Carousel.Item>
                     </Carousel>
                 </Modal.Body>
