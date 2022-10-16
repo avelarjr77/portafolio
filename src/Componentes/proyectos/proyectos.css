@@ -24,3 +24,13 @@
     display: flex;
     overflow: hidden;
 }
+.proyectos {
+    display: grid;
+    place-content: center;
+}
+@media screen and (max-width: 768px){
+    .proyectos {
+        margin: 7em;
+        display: grid;
+    }
+}

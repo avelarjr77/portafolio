@@ -13,7 +13,7 @@ export default function servicios() {
                     <hr></hr>
                     <br></br>
                     <div className='web_contenido'>
-                        <article>
+                        <article className='article'>
                             <h5>Web responsive</h5>
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>
@@ -21,7 +21,7 @@ export default function servicios() {
                                 <li>Contenido. 5 Páginas</li>
                             </small>
                         </article>
-                        <article>
+                        <article className='article'>
                             <h5>Dahsboard</h5>
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>
@@ -34,7 +34,7 @@ export default function servicios() {
                                 <li><b>Arquitectura:</b> MVC</li>
                             </small>
                         </article>
-                        <article>
+                        <article className='article'>
                             <h5>Diseño personalizado Dashboard</h5>
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>

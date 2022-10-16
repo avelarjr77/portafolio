@@ -1,9 +1,10 @@
 {
   "name": "portafolio",
   "version": "0.1.0",
-  "homepage": "https://avelarjr77.github.io/portafolio",
+  "homepage": "https://avelarjr77.000webhostapp.com/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@popperjs/core": "^2.11.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

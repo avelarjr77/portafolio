@@ -30,17 +30,19 @@ export default function Proyectos(props) {
 
     return (
         <section id='proyecto'>
+            <div className='container'>
             <h2>Proyectos</h2>
             <h4>Algunos de mis proyectos de Desarrollo Web</h4>
             <br></br>
-            <h5>Una muestra de mis trabajos, desde el año 2010 hasta laactualidad.
+            <h5>Una muestra de mis trabajos, desde el año 2020 hasta la actualidad.
                 <br></br>
                 Haz clic sobre cada uno para ver mas información.</h5>
             <br></br>
-            <div className="container sobremi">
-                <div className='row'>
+            </div>
+            <div className="proyectos">
+                <div className='row row-cols-1 row-cols-md-3 g-4'>
                     <div className='col-sm-4'>
-                        <Card bg='dark' style={{ width: '18rem', height: '21rem' }}>
+                        <Card className="mb-2" bg='dark' style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" src={Correspondencia1} />
                             <Card.Body>
                                 <Card.Title>Sistema Workflow de Correspondencia</Card.Title>
@@ -54,7 +56,7 @@ export default function Proyectos(props) {
                         </Card>
                     </div>
                     <div className='col-sm-4'>
-                        <Card bg='dark' style={{ width: '18rem', height: '21rem' }}>
+                        <Card className="mb-2" bg='dark' style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" src={ControlEquipos} />
                             <Card.Body>
                                 <Card.Title>Sistema Control de Equipos</Card.Title>
@@ -69,7 +71,7 @@ export default function Proyectos(props) {
                         </Card>
                     </div>
                     <div className='col-sm-4'>
-                        <Card bg='dark' style={{ width: '18rem', height: '21rem' }}>
+                        <Card className="mb-2" bg='dark' style={{ width: '18rem', height: '21rem' }}>
                             <Card.Img variant="top" src={Restaurante} />
                             <Card.Body>
                                 <Card.Title>Sistema de Restaurante</Card.Title>
