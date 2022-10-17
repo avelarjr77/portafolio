@@ -18,14 +18,14 @@ export default function servicios() {
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>
                                 <li>Bootstrap 5</li>
-                                <li>Contenido. 5 Páginas</li>
+                                <li>Contenido: 5 Páginas</li>
                             </small>
                         </article>
                         <article className='article'>
-                            <h5>Dahsboard</h5>
+                            <h5>Dashboard</h5>
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>
-                                <li>Contenido. 10 Páginas</li>
+                                <li>Contenido: 10 Páginas</li>
                                 <li>Responsive</li>
                                 <li>CRUD</li>
                                 <li>Bootstrap 5</li>
@@ -38,7 +38,7 @@ export default function servicios() {
                             <h5>Diseño personalizado Dashboard</h5>
                             <small className='text-light text-small'>
                                 <li>Diseño por plantilla</li>
-                                <li>Contenido. 10+ Páginas</li>
+                                <li>Contenido: 10+ Páginas</li>
                                 <li>Responsive</li>
                                 <li>CRUD</li>
                                 <li>Login</li>

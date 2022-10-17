@@ -34,7 +34,7 @@ export default function Proyectos(props) {
             <h2>Proyectos</h2>
             <h4>Algunos de mis proyectos de Desarrollo Web</h4>
             <br></br>
-            <h5>Una muestra de mis trabajos, desde el año 2020 hasta la actualidad.
+            <h5>Una muestra de los trabajos en que he partcipado o realizado, desde el año 2020 hasta la actualidad.
                 <br></br>
                 Haz clic sobre cada uno para ver mas información.</h5>
             <br></br>
@@ -51,7 +51,7 @@ export default function Proyectos(props) {
                                         <li>Codeigniter 4</li>
                                     </h6>
                                 </Card.Text>
-                                <Button variant="outline-light" onClick={() => modalCorrespondencia(true)}>Ver info.</Button>
+                                <Button variant="outline-light" onClick={() => modalCorrespondencia(true)}>Ver</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -66,7 +66,7 @@ export default function Proyectos(props) {
                                         <br></br>
                                     </h6>
                                 </Card.Text>
-                                <Button variant="outline-light" onClick={() => modalEquipos(true)}>Ver info.</Button>
+                                <Button variant="outline-light" onClick={() => modalEquipos(true)}>Ver</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -81,7 +81,7 @@ export default function Proyectos(props) {
                                         <br></br>
                                     </h6>
                                 </Card.Text>
-                                <Button variant="outline-light" onClick={() => modalRestaurante(true)}>Ver info.</Button>
+                                <Button variant="outline-light" onClick={() => modalRestaurante(true)}>Ver</Button>
                             </Card.Body>
                         </Card>
                     </div>

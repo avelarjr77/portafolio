@@ -61,7 +61,7 @@ export const Home = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <br></br><br></br>
-                  <span className="tagline">¡Bienvenido a mi Portfolio!</span>
+                  <span className="tagline">¡Bienvenido a mi Portafolio!</span>
                   <h1 class="fs-1">{`Hola! mi nombre es:`}
                   <br></br><h1 className="nombre">Oscar <span className="apellido">Avelar</span> </h1>
                     <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Soy Desarrollador Web." ]'><span className="wrap">{text}</span></span></h1><br></br>
